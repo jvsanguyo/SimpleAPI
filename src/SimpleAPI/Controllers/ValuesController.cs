@@ -16,6 +16,6 @@ public class ValuesController : ControllerBase
     [HttpGet("{id}")]
     public ActionResult<string> Get(int value)
     {
-        return "John";
+        return "John Sanguyo";
     }
 }
